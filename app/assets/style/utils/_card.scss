@@ -1,0 +1,244 @@
+.card{
+    border-radius: 1rem;
+}
+.card-img{
+    border-radius: 1rem;
+}
+.card-bg{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
+    width:100%;
+    height: 420px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include md(){
+        height: 252px;
+    }
+    @include sm(){
+        height: 420px;
+    }
+}
+
+.card-bg1{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
+    width:100%;
+    height: 420px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include md(){
+        height: 252px;
+    }
+    @include sm(){
+        height: 420px;
+    }
+}
+.card-bg2{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
+    width:100%;
+    height: 420px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include md(){
+        height: 252px;
+    }
+    @include sm(){
+        height: 420px;
+    }
+}
+.card-mb{
+    @include sm(){
+    margin-bottom:$spacer;
+    }
+}
+.card-mb-3{
+    @include sm(){
+        margin-bottom:$spacer*3;
+        }
+}
+/*頂尖師資*/
+/*左邊底圖*/
+.card-list{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg?raw=true);
+    width: 45%;
+    height: 790px;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:16px;
+    @include md(){
+        display:none; 
+    }
+}
+/*大卡圖*/
+.card-img{
+    display: block;
+    width: 94px;
+    @include sm(){
+        margin: 48px 16px ;
+    }
+
+}
+.card-img img{
+    @include sm(){
+        width: 100%;
+    } 
+}
+/*小卡圖*/
+.card-img-s{
+    display: block;
+    width: 68px;
+    padding: 1rem 0;
+    @include sm(){
+        width: 48px;  
+        margin-right: 24px; 
+        margin-top: 4px;  
+    }
+
+}
+.card-img-s img{
+    @include sm(){
+        width: 100%;
+    } 
+}
+/**/
+.card-list-s{
+    @include md(){
+        width: 570px;
+    }
+}
+.ml-off{
+    margin-left: -95px;    
+    @include sm(){
+        margin-left: 0px;
+    }
+}
+.card-body{
+    @include sm(){
+    
+    } 
+}
+
+/*方案選擇*/
+.card-bg-plan{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true);
+    height: 250px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:16px 16px 0px 0px;
+    @include md(){
+        width: 45%;
+        border-radius:16px 0px 0px 16px;
+    }
+    @include sm(){
+        width: 100%;
+        border-radius:16px 16px 0px 0px;
+    }
+}
+.card-pad-size{
+    @include md(){
+    display: flex;
+    flex-direction: row;
+    }
+    @include sm(){
+        flex-direction: column;
+    }
+}
+.card-title-w{
+    @include md(){
+    width: 45%;
+    }
+    @include sm(){
+    width: 100%;
+    }
+}
+
+.card-bg-plan2{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20performing%20yoga.jpg?raw=true);
+    height: 250px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:16px 16px 0px 0px;
+    @include md(){
+        width: 45%;
+        border-radius:16px 0px 0px 16px;
+    }
+    @include sm(){
+        width: 100%;
+        border-radius:16px 16px 0px 0px;
+    }
+}
+.card-bg-plan3{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20blue%20leggings%20and%20black%20tank%20top%20doing%20yoga.jpg?raw=true);
+    height: 250px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:16px 16px 0px 0px;
+    @include md(){
+        width: 45%;
+        border-radius:16px 0px 0px 16px;
+    }
+    @include sm(){
+        width: 100%;
+        border-radius:16px 16px 0px 0px;
+    }
+}
+.card-btn{
+    width: 100%;
+}
+
+/*聽聽它們怎麼說*/
+.card-nav{
+    position: relative; 
+}
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.card-w-4{
+    width: 32%;
+    @include md(){
+        width: 48%;
+    }
+    @include sm(){
+        width: 100%;
+    }
+}
+.card-title-header{
+    display:inline-flex;    
+}
+.card-title,.card-date{
+    display: inline-flex;
+}
+/*star*/
+.star-rating span {
+ padding: 5px;
+font-size: 20px;
+}
+.star-rating span:after {
+content: "★";
+}
+.star-rating-top {
+padding: 0;
+display: block;
+ overflow: hidden;
+white-space: nowrap;
+ }
+ .card-icon{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .card-icon-s:focus,.card-icon-e:focus{
+    color:$primary;
+ }
+ .card-icon-s,.card-icon-e{
+     color: $secondary;
+ }

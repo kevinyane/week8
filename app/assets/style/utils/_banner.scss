@@ -1,0 +1,27 @@
+.banner{
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true);
+    height:850px;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include md(){
+        height:582px;
+    }
+
+}
+.banner-title{
+    padding-top: 33.33%;
+    @include md(){
+   padding-top:25%;
+    }
+    @include sm (){
+    padding-top:50%;
+   }
+    
+}
+.btn-group{
+   
+}
+.btn-w{
+    width: 112px;
+}

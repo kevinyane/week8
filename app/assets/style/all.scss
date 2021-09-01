@@ -1,0 +1,17 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+/*全站設定*/
+@import './base/base';
+/*預設樣式*/
+@import './components/mixin';
+@import'./components/fontsize';
+/*元件設定*/
+@import'./utils/nav';
+@import'./utils/fixed';
+@import'./utils/banner';
+@import'./utils/card';
+@import'./utils/swiper';
+/*頁面設定*/
+@import'./layout/layout';
+@import './layout/index.scss';

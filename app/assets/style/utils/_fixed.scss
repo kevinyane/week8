@@ -1,0 +1,23 @@
+/*右側浮動按鈕*/
+.fixed{
+    position:fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 50%;  /*設置垂直位置*/
+    right: -40px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    z-index: 100;
+    @include md(){
+      top: 30%;
+    }
+    @include sm(){
+      top: 40%;
+    }
+  }
+  .fixed-icon{
+    width:48px;
+    height: auto;
+    
+  }
+  .fixed-icon img{
+    width:100%;
+    height: 48px;
+    margin-bottom: 8px;
+  }
