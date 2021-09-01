@@ -232,13 +232,20 @@ display: block;
 white-space: nowrap;
  }
  .card-icon{
-     display: flex;
-     justify-content: space-between;
+     display: none;
+     height: 36px;
+     @include sm(){
+         display: flex;
+         justify-content: space-between;
+     }
  }
 
- .card-icon-s:focus,.card-icon-e:focus{
+ .card-icon-arrow:hover{
     color:$primary;
  }
- .card-icon-s,.card-icon-e{
+ .card-icon-arrow:focus{
+    color:$primary;
+ }
+ .card-icon-arrow{
      color: $secondary;
  }

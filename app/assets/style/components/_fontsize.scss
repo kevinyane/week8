@@ -69,12 +69,6 @@ text-align: center;
         display:none ; 
     }
 }
-.block-mob{
-    display: none;
-    @include sm(){
-        display: block;
-    } 
-}
 
 .overflow-hidden{
     overflow: hidden;
