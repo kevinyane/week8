@@ -286,10 +286,11 @@
 </div>
 
 <!--聽聽他們怎麼說-->
-<div class="container-fluid bg-success pt-8 pb-9">
+<div class="container-fluid bg-success pt-8 pb-9 card-seiper">
   <p class="fs-lxx fw-bold text-primary text-center mb-6">聽聽他們怎麼說</p>
-  <div class="container">
-    <div class="row d-flex justify-content-between">
+  <div class="container swiper">
+    <div class="swiper-card-wrapper">
+    <div class="row d-flex justify-content-between swiper-card-slide">
       <div class=" card card-w-4 mb-3 ">
         <div class="d-flex align-items-center g-0">
           <div class=" img-center">
@@ -414,7 +415,8 @@
             </div>
           </div>
         </div>
-      </div> <div class=" card card-w-4 mb-3">
+      </div> 
+      <div class=" card card-w-4 mb-3">
         <div class="d-flex align-items-center g-0">
           <div class=" img-center">
             <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/uset-6.png?raw=true" alt="體驗者">
@@ -439,17 +441,21 @@
           </div>
         </div>
       </div>
-      <div class="card-icon block-mob">
-        <span class="material-icons card-icon-arrow fs-h">
-          arrow_back
-          </span>
-          <span class="material-icons card-icon-arrow">
-            arrow_forward
-            </span>
-      </div>
     </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev fs-h card-icon card-icon-arrow"></div>
+    <div class="swiper-button-next fs-h card-icon card-icon-arrow"></div>
+    
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  </div>
+
   </div>
 </div>
+
 <footer class="container-fluid bg-primary">
   <div class="container"> 
     <div class="py-lg-7 py-4 footer-top border-bottom">
@@ -489,7 +495,9 @@
 <script src="./assets/js/all.js"></script>
 <!--精心設計-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/js/swiper.js"></script>  
+<script src="./assets/js/swiper.js"></script> 
+
+</script>
 
 </body>
 
